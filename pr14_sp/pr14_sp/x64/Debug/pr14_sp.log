@@ -1,0 +1,7 @@
+﻿  pr14_sp.cpp
+C:\Users\DNS\OneDrive\Рабочий стол\Доделывать\pr14_sp\pr14_sp.cpp(42,40): warning C4244: =: преобразование "ULONGLONG" в "DWORD", возможна потеря данных
+C:\Users\DNS\OneDrive\Рабочий стол\Доделывать\pr14_sp\pr14_sp.cpp(51,43): warning C4244: =: преобразование "ULONGLONG" в "DWORD", возможна потеря данных
+C:\Users\DNS\OneDrive\Рабочий стол\Доделывать\pr14_sp\pr14_sp.cpp(58,41): warning C4244: =: преобразование "ULONGLONG" в "DWORD", возможна потеря данных
+C:\Users\DNS\OneDrive\Рабочий стол\Доделывать\pr14_sp\pr14_sp.cpp(96,24): warning C4244: инициализация: преобразование "double" в "long", возможна потеря данных
+C:\Users\DNS\OneDrive\Рабочий стол\Доделывать\pr14_sp\pr14_sp.cpp(97,18): warning C4244: инициализация: преобразование "double" в "long", возможна потеря данных
+  pr14_sp.vcxproj -> C:\Users\DNS\OneDrive\Рабочий стол\Доделывать\pr14_sp\x64\Debug\pr14_sp.exe

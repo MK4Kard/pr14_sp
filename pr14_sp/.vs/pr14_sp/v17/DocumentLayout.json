@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DNS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0414\u043E\u0434\u0435\u043B\u044B\u0432\u0430\u0442\u044C\\pr14_sp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3B8B663-FCA7-4706-867C-696B3727F4B1}|pr14_sp.vcxproj|C:\\Users\\DNS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0414\u043E\u0434\u0435\u043B\u044B\u0432\u0430\u0442\u044C\\pr14_sp\\pr14_sp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C3B8B663-FCA7-4706-867C-696B3727F4B1}|pr14_sp.vcxproj|solutionrelative:pr14_sp.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 308,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "pr14_sp.cpp",
+              "DocumentMoniker": "C:\\Users\\DNS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0414\u043E\u0434\u0435\u043B\u044B\u0432\u0430\u0442\u044C\\pr14_sp\\pr14_sp.cpp",
+              "RelativeDocumentMoniker": "pr14_sp.cpp",
+              "ToolTip": "C:\\Users\\DNS\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u0414\u043E\u0434\u0435\u043B\u044B\u0432\u0430\u0442\u044C\\pr14_sp\\pr14_sp.cpp",
+              "RelativeToolTip": "pr14_sp.cpp",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAmwDMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-03-28T10:09:03.783Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
