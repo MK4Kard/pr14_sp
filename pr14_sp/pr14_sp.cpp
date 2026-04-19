@@ -41,7 +41,7 @@ void Client(LPVOID param) {
     club.clients[client->threadId - 1] = client;
     client->arriveTick = GetTickCount64(); // фиксирует момент прихода
 
-    dwWaitResult = WaitForSingleObject(semaphore, 3000); // пытается получить доступ к рабочему месту через семафор
+    dwWaitResult = WaitForSingleObject(semaphore, 3000); // пытается получить доступ к рабочему месту через семафор, то есть уменьшает количество свободных мест
 
     switch (dwWaitResult) {
     case WAIT_OBJECT_0: // если свободное место есть
@@ -52,7 +52,7 @@ void Client(LPVOID param) {
         
         Sleep(dist(gen) * 1000); // работает за компьютером случайное время
         
-        ReleaseSemaphore(semaphore, 1, NULL);
+        ReleaseSemaphore(semaphore, 1, NULL); // увеличивает количество свободных мест
         club.currentVisitors--; // освобождает место
         
         client->endTick = GetTickCount64(); // фиксирует завершение обслуживания
@@ -118,7 +118,7 @@ int main()
     DWORD IdWThread, IdThread;
 
     ClientRecord clients[MAX_CLIENTS]{MAX_CLIENTS};
-
+                                    //количество свободных мест 
     semaphore = CreateSemaphore(NULL, CLUB_CAPACITY, CLUB_CAPACITY, L"SemaphoreClub");
     if (semaphore == NULL) {
         cout << GetLastError() << endl;
